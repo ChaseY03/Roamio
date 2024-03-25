@@ -7,7 +7,7 @@ const SplashScreen = ({navigation}) => {
         const timeout = setTimeout(() => {
             // Navigate to 'Home' screen
             navigation.navigate('Home');
-        }, 3000); // Adjust duration as needed
+        }, 1500); // Adjust duration as needed
 
         return () => clearTimeout(timeout);
     }, []); // Ensure empty dependency array to run effect only once
